@@ -1,0 +1,28 @@
+@import url(/css/sections/header.scss);
+
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    background-color: var(--color-black);
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+}
+.bg-overlay{
+    background-color: var(--color-slate-gray);
+}
+:root {
+  --color-black: #171717; /* black */
+  --color-gunmetal: #232532; /* Border color/ shape secondary 2 */
+  --color-sunset-orange: #e6533c; /* shape 1 */
+  --color-primary: #7a29dc; /* shape 3 */
+  --color-text-primary: #fafaf9; /* text 1 */
+  --color-text-secondary: #EFEDE8; /* text 2 */
+  --color-charcoal: #303030; /* Primary text color/ shape 2 */
+  --color-slate-gray: #323443; /* Muted / shape secondary 1 */
+  --color-storm-gray: #4f5261; /* Secondary text color/ Shape Seconday 3 */
+  --color-blue: #0070C9: /*link */
+}
