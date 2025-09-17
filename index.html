@@ -1,40 +1,86 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <link rel="stylesheet" href="css/style.scss" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gym workout app</title>
-  </head>
-  <body>
-    <header class="header">
-      <div class="header__nav container">
-        <div class="header__logo">
-          <h1>Workout</h1>
-        </div>
-        <ul class="header__menu">
-          <li class="header__menu-item">
-            <a href="#">workouts</a>
-          </li>
-          <li class="header__menu-item">
-            <a href="#">programs</a>
-          </li>
-          <li class="header__menu-item">
-            <a href="#">healthy</a>
-          </li>
-          <li class="header__menu-item">
-            <a href="#">community</a>
-          </li>
-          <li class="header__menu-item">
-            <a href="#">about</a>
-          </li>
-          <li class="header__menu-item">
-            <a href="#">store</a>
-          </li>
-        </ul>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="stylesheet" href="css/style.scss" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gym workout app</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__nav container">
+      <div class="header__logo">
+        <h1>Workout</h1>
       </div>
-    </header>
-    <!-- <script type="module" src="js/main.js"></script> -->
-  </body>
+      <ul class="header__menu">
+        <li class="header__menu-item">
+          <a href="#">workouts</a>
+        </li>
+        <li class="header__menu-item">
+          <a href="#">programs</a>
+        </li>
+        <li class="header__menu-item">
+          <a href="#">healthy</a>
+        </li>
+        <li class="header__menu-item">
+          <a href="#">community</a>
+        </li>
+        <li class="header__menu-item">
+          <a href="#">about</a>
+        </li>
+        <li class="header__menu-item">
+          <a href="#">store</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <div class="hero container">
+    <div class="hero__left">
+      <div class="hero__content">
+        <h1>Workout with me</h1>
+        <p class="p-style">
+          A huge selection of health and fitness content, healthy recipes
+          and <br> transformation stories to help you get fit and stay fit!
+        </p>
+        <button class="button-style">Join Club Now!</button>
+      </div>
+      <div class="hero__partners">
+        <p class="p-style">as featured in</p>
+        <div class="hero__partners-logos">
+          <img src="assets/nike.png" alt="nike logo">
+          <img src="assets/buzzfeed.png" alt="buzzfeed icon">
+          <img src="assets/esprit.png" alt="esprit icon">
+          <img src="assets/national-graphics.png" alt="national graphics icon">
+          <img src="assets/dw.png" alt="dw icon">
+          <img src="assets/huufpost.png" alt="huffpost icon">
+        </div>
+      </div>
+    </div>
+    <div class="hero__right">
+      <div class="hero__image">
+        <img src="assets/hero.png" alt="hero image">
+      </div>
+      <div class="hero__tracer">
+        <img src="assets/running-icon.png" alt="running icon">
+        <h2>4,95 <span>km</span></h2>
+      </div>
+      <div class="hero__tutorial">
+        <img src="assets/orange-play.png" alt="orange play button">
+        <div class="hero__tutorial-stats">
+          <h3 class="h3-style">350+</h3>
+          <p class="p-style">video tutorial</p>
+        </div>
+      </div>
+      <div class="hero__video">
+        <h3>500+</h3>
+        <p class="p-style">Free Workout Videos</p>
+      </div>
+    </div>
+  </div>
+  <!-- <script type="module" src="js/main.js"></script> -->
+</body>
+
 </html>

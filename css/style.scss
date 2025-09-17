@@ -1,4 +1,23 @@
 @import url(/css/sections/header.scss);
+@import url(/css/sections/hero.scss);
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+
+
+:root {
+  --color-black: #171717; /* black */
+  --color-gunmetal: #232532; /* Border color/ shape secondary 2 */
+  --color-sunset-orange: #e6533c; /* shape 1 */
+  --color-primary: #7a29dc; /* shape 3 */
+  --color-text-primary: #fafaf9; /* text 1 */
+  --color-text-secondary: #e5e1d9; /* text 2 */
+  --color-charcoal: #303030; /* Primary text color/ shape 2 */
+  --color-slate-gray: #323443; /* Muted / shape secondary 1 */
+  --color-storm-gray: #4f5261; /* Secondary text color/ Shape Secondary 3 */
+  --color-blue: #0070C9: /*link */
+}
 
 body {
     font-family: "Inter", sans-serif;
@@ -14,15 +33,64 @@ body {
 .bg-overlay{
     background-color: var(--color-slate-gray);
 }
-:root {
-  --color-black: #171717; /* black */
-  --color-gunmetal: #232532; /* Border color/ shape secondary 2 */
-  --color-sunset-orange: #e6533c; /* shape 1 */
-  --color-primary: #7a29dc; /* shape 3 */
-  --color-text-primary: #fafaf9; /* text 1 */
-  --color-text-secondary: #EFEDE8; /* text 2 */
-  --color-charcoal: #303030; /* Primary text color/ shape 2 */
-  --color-slate-gray: #323443; /* Muted / shape secondary 1 */
-  --color-storm-gray: #4f5261; /* Secondary text color/ Shape Seconday 3 */
-  --color-blue: #0070C9: /*link */
+
+.h1-style{
+    color: var(--color-text-primary);
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 600;
+    letter-spacing: 0.83px;
 }
+.h2-style{
+    color: var(--color-text-primary);
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+.h3-style{
+    color: var(--color-text-primary);
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+.h4-style{
+    color: var(--color-text-primary);
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.h5-style{
+    color: var(--color-text-primary);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.p-style{
+    color: var(--color-text-secondary);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    width: fit-content;
+    opacity: 0.8;
+}
+.p-style-small{
+    color: var(--color-text-secondary);
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    width: fit-content;
+    opacity: 0.8;
+}
+.button-style{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    color: var(--color-text-primary);
+}
+
