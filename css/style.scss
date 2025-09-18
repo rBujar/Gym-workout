@@ -1,3 +1,5 @@
+@import url(/css/reset.css);
+
 @import url(/css/sections/header.scss);
 @import url(/css/sections/hero.scss);
 @import url(/css/sections/program.scss);
@@ -17,13 +19,18 @@
   --color-charcoal: #303030; /* Primary text color/ shape 2 */
   --color-slate-gray: #323443; /* Muted / shape secondary 1 */
   --color-storm-gray: #4f5261; /* Secondary text color/ Shape Secondary 3 */
-  --color-blue: #0070C9: /*link */
+  --color-blue: #0070c9;
+  --color-blue-light: #008cfc;
 }
+::-webkit-scrollbar {
+    display: none;
+  }
 
 body {
     font-family: "Inter", sans-serif;
     margin: 0;
     background-color: var(--color-black);
+   
 }
 
 .container {
@@ -31,6 +38,7 @@ body {
     max-width: 1440px;
     margin: auto;
 }
+
 .bg-overlay{
     background-color: var(--color-slate-gray);
 }
@@ -93,5 +101,21 @@ body {
     line-height: 22px;
     font-weight: 600;
     color: var(--color-text-primary);
+}
+.seeMore-style{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    color: var(--color-blue);
+
+    text-decoration: none;
+    cursor: pointer;
+
+    transition: color 0.3s ease-in-out;
+
+    &:hover{
+        color: var(--color-blue-light);
+    }
 }
 
