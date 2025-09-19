@@ -1,143 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="css/style.scss" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gym workout app</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-  <link rel="stylesheet" href="css/style.scss" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gym workout app</title>
-</head>
-
-<body>
-  <header class="header">
-    <div class="header__nav container">
-      <div class="header__logo">
-        <h1>Workout</h1>
+  <body>
+    <header class="header">
+      <div class="header__nav container">
+        <div class="header__logo">
+          <h1>Workout</h1>
+        </div>
+        <ul class="header__menu">
+          <li class="header__menu-item">
+            <a href="#">workouts</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#">programs</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#">healthy</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#">community</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#">about</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#">store</a>
+          </li>
+        </ul>
       </div>
-      <ul class="header__menu">
-        <li class="header__menu-item">
-          <a href="#">workouts</a>
-        </li>
-        <li class="header__menu-item">
-          <a href="#">programs</a>
-        </li>
-        <li class="header__menu-item">
-          <a href="#">healthy</a>
-        </li>
-        <li class="header__menu-item">
-          <a href="#">community</a>
-        </li>
-        <li class="header__menu-item">
-          <a href="#">about</a>
-        </li>
-        <li class="header__menu-item">
-          <a href="#">store</a>
-        </li>
-      </ul>
-    </div>
-  </header>
-  <section class="hero container">
-    <div class="hero__left">
-      <div class="hero__content">
-        <h1>Workout with me</h1>
+    </header>
+    <section class="hero container">
+      <div class="hero__left">
+        <div class="hero__content">
+          <h1>Workout with me</h1>
+          <p class="p-style">
+            A huge selection of health and fitness content, healthy recipes and
+            <br />
+            transformation stories to help you get fit and stay fit!
+          </p>
+          <button class="button-style">Join Club Now!</button>
+        </div>
+        <div class="hero__partners">
+          <p class="p-style">as featured in</p>
+          <div class="hero__partners-logos">
+            <img src="assets/nike.png" alt="nike logo" />
+            <img src="assets/buzzfeed.png" alt="buzzfeed icon" />
+            <img src="assets/esprit.png" alt="esprit icon" />
+            <img
+              src="assets/national-graphics.png"
+              alt="national graphics icon"
+            />
+            <img src="assets/dw.png" alt="dw icon" />
+            <img src="assets/huufpost.png" alt="huffpost icon" />
+          </div>
+        </div>
+      </div>
+      <div class="hero__right">
+        <div class="hero__image">
+          <img src="assets/hero.png" alt="hero image" />
+        </div>
+        <div class="hero__tracer">
+          <img src="assets/running-icon.png" alt="running icon" />
+          <h2>4,95 <span>km</span></h2>
+        </div>
+        <div class="hero__tutorial">
+          <img src="assets/orange-play.png" alt="orange play button" />
+          <div class="hero__tutorial-stats">
+            <h3 class="h3-style">350+</h3>
+            <p class="p-style">video tutorial</p>
+          </div>
+        </div>
+        <div class="hero__video">
+          <h3>500+</h3>
+          <p class="p-style">Free Workout Videos</p>
+        </div>
+      </div>
+    </section>
+    <section class="program">
+      <div class="program__title">
+        <h2 class="h2-style">Not sure where to start?</h2>
         <p class="p-style">
-          A huge selection of health and fitness content, healthy recipes and
-          <br />
-          transformation stories to help you get fit and stay fit!
+          Programs offer day-to-day guidance on an interactive calendar to keep
+          you on track.
         </p>
-        <button class="button-style">Join Club Now!</button>
       </div>
-      <div class="hero__partners">
-        <p class="p-style">as featured in</p>
-        <div class="hero__partners-logos">
-          <img src="assets/nike.png" alt="nike logo" />
-          <img src="assets/buzzfeed.png" alt="buzzfeed icon" />
-          <img src="assets/esprit.png" alt="esprit icon" />
-          <img src="assets/national-graphics.png" alt="national graphics icon" />
-          <img src="assets/dw.png" alt="dw icon" />
-          <img src="assets/huufpost.png" alt="huffpost icon" />
+      <div class="program__bottom">
+        <div class="program__plan program__plan--1">
+          <div class="program__plan-content">
+            <h5 class="h5-style">Workout Videos</h5>
+            <div class="program__plan-item">
+              <p class="p-style-small">
+                Access to hundreds of free, full-length workout videos.
+              </p>
+              <img src="assets/white-arrow_right.png" alt="" />
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-    <div class="hero__right">
-      <div class="hero__image">
-        <img src="assets/hero.png" alt="hero image" />
-      </div>
-      <div class="hero__tracer">
-        <img src="assets/running-icon.png" alt="running icon" />
-        <h2>4,95 <span>km</span></h2>
-      </div>
-      <div class="hero__tutorial">
-        <img src="assets/orange-play.png" alt="orange play button" />
-        <div class="hero__tutorial-stats">
-          <h3 class="h3-style">350+</h3>
-          <p class="p-style">video tutorial</p>
+        <div class="program__plan program__plan--2">
+          <div class="program__plan-content">
+            <h5 class="h5-style">Workout Programs</h5>
+            <div class="program__plan-item">
+              <p class="p-style-small">
+                Affordable and effective workout programs.
+              </p>
+              <img src="assets/white-arrow_right.png" alt="" />
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="hero__video">
-        <h3>500+</h3>
-        <p class="p-style">Free Workout Videos</p>
-      </div>
-    </div>
-  </section>
-  <section class="program">
-    <div class="program__title">
-      <h2 class="h2-style">Not sure where to start?</h2>
-      <p class="p-style">
-        Programs offer day-to-day guidance on an interactive calendar to keep
-        you on track.
-      </p>
-    </div>
-    <div class="program__bottom">
-      <div class="program__plan program__plan--1">
-        <div class="program__plan-content">
-          <h5 class="h5-style">Workout Videos</h5>
-          <div class="program__plan-item">
-            <p class="p-style-small">
-              Access to hundreds of free, full-length workout videos.
-            </p>
-            <img src="assets/white-arrow_right.png" alt="" />
+        <div class="program__plan program__plan--3">
+          <div class="program__plan-content">
+            <h5 class="h5-style">Meal Plans</h5>
+            <div class="program__plan-item">
+              <p class="p-style-small">
+                Plans built with registered dietitians and nutritionists.
+              </p>
+              <img src="assets/white-arrow_right.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="program__plan program__plan--4">
+          <div class="program__plan-content">
+            <h5 class="h5-style">WO Plus ALL ACCESS</h5>
+            <div class="program__plan-item">
+              <p class="p-style-small">
+                Add powerful features to your membership.
+              </p>
+              <img src="assets/white-arrow_right.png" alt="" />
+            </div>
           </div>
         </div>
       </div>
-      <div class="program__plan program__plan--2">
-        <div class="program__plan-content">
-          <h5 class="h5-style">Workout Programs</h5>
-          <div class="program__plan-item">
-            <p class="p-style-small">
-              Affordable and effective workout programs.
-            </p>
-            <img src="assets/white-arrow_right.png" alt="" />
+    </section>
+    <section class="preview container">
+      <div class="preview__item">
+        <div class="preview__content">
+          <div class="preview__title">
+          <h1 class="h1-style">Work out at home for free.</h1>
+          <p class="p-style-small">
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym. With hundreds of
+            professional workouts, healthy recipes and informative articles, as
+            well as one of the most positive communities on the web, you'll have
+            everything you need to reach your personal fitness goals for free!
+          </p>
           </div>
+          <div class="preview__link">
+          <a href="#" class="seeMore-style">See More</a>
+          <img src="assets/white-arrow_right.png" alt="white right arrow">
+        </div>
+        </div>
+        <div class="preview__image">
+          <img src="assets/model-1.png" alt="model 1">
         </div>
       </div>
-      <div class="program__plan program__plan--3">
-        <div class="program__plan-content">
-          <h5 class="h5-style">Meal Plans</h5>
-          <div class="program__plan-item">
-            <p class="p-style-small">
-              Plans built with registered dietitians and nutritionists.
-            </p>
-            <img src="assets/white-arrow_right.png" alt="" />
+      <div class="preview__item">
+        <div class="preview__content">
+          <div class="preview__title">
+          <h1 class="h1-style">Get more with low-cost training programs and advanced features.</h1>
+          <p class="p-style-small">
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym. With hundreds of
+            professional workouts, healthy recipes and informative articles, as
+            well as one of the most positive communities on the web, you'll have
+            everything you need to reach your personal fitness goals for free!
+          </p>
           </div>
+          <div class="preview__link">
+          <a href="#" class="seeMore-style">See More</a>
+          <img src="assets/white-arrow_right.png" alt="white right arrow">
+        </div>
+        </div>
+        <div class="preview__image">
+          <img src="assets/model-2.png" alt="model 2">
         </div>
       </div>
-      <div class="program__plan program__plan--4">
-        <div class="program__plan-content">
-          <h5 class="h5-style">WO Plus ALL ACCESS</h5>
-          <div class="program__plan-item">
-            <p class="p-style-small">
-              Add powerful features to your membership.
-            </p>
-            <img src="assets/white-arrow_right.png" alt="" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <script type="module" src="js/main.js"></script>
-</body>
-
+    </section>
+    <script type="module" src="js/main.js"></script>
+  </body>
 </html>
