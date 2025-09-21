@@ -11,3 +11,8 @@ getLeftSide();
 window.addEventListener('resize', getLeftSide)
 
 
+const scrollButton = document.getElementById('navButton')
+
+scrollButton.addEventListener('click', () => {
+    document.documentElement.scrollTo({ top: 0, behavior: 'smooth'})
+})

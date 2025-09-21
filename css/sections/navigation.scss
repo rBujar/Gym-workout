@@ -1,0 +1,29 @@
+.navigation{
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+
+    &__item{
+        display: flex;
+        align-items: center;
+        background-color: var(--color-text-primary);
+        width: fit-content;
+        max-width: 150px;
+        padding: 6px; //150 38
+        gap: 4px;
+        transition: border-radius 0.5s ease-in-out;
+
+        &:hover{
+            border-radius: 20px;
+        }
+
+        button{
+            border: none;
+            outline: none;
+            background: transparent;
+            color: var(--color-black);
+            padding: 0;
+            cursor: pointer;
+        }
+    }
+}

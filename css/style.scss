@@ -4,6 +4,8 @@
 @import url(/css/sections/hero.scss);
 @import url(/css/sections/program.scss);
 @import url(/css/sections/preview.scss);
+@import url(/css/sections/membership.scss);
+@import url(/css/sections/navigation.scss);
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
@@ -83,6 +85,7 @@ body {
     color: var(--color-text-secondary);
     font-size: 16px;
     line-height: 24px;
+    letter-spacing: 0.5px;
     font-weight: 400;
     width: fit-content;
     opacity: 0.8;
@@ -99,6 +102,7 @@ body {
 .button-style{
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
+    letter-spacing: 0;
     line-height: 22px;
     font-weight: 600;
     color: var(--color-text-primary);
