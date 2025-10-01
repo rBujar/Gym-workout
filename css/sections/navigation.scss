@@ -27,3 +27,15 @@
         }
     }
 }
+
+@media (max-width: 1440px) {
+    .navigation{
+        padding: 30px 65px 26px 0px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .navigation{
+        padding: 20px 45px 10px 0px;
+    }
+}
