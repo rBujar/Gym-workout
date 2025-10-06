@@ -35,7 +35,7 @@
   }
   
   /* ≤1399px */
-  @media (max-width: 1399px) {
+  @media (max-width: 1400px) {
     .container,
     .container-xl {
       max-width: 1140px;
@@ -43,7 +43,7 @@
   }
   
   /* ≤1199px */
-  @media (max-width: 1199px) {
+  @media (max-width: 1200px) {
     .container,
     .container-lg {
       max-width: 960px;
