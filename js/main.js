@@ -11,10 +11,10 @@ function getLeftSide() {
     program.style.marginLeft = `${leftContainerSide}px`
     topPreviewItem.style.marginLeft = `${leftContainerSide}px`
 }
-function getRightSide() {
-    let rightContainerSide = container.getBoundingClientRect().right;
-    bottomPreviewItem.style.marginRight = `${rightContainerSide}px`
-}
+// function getRightSide() {
+//     let rightContainerSide = container.getBoundingClientRect().right;
+//     bottomPreviewItem.style.marginRight = `${rightContainerSide}px`
+// }
 
 getLeftSide();
 

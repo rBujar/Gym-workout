@@ -125,6 +125,53 @@ body {
     }
 }
 
+@media (max-width: 1200px){
+  .h1-style {
+    font-size: 48px;
+    line-height: 62px;
+  }
+
+  .h2-style {
+    font-size: 34px;
+    line-height: 44px;
+  }
+
+  .h3-style {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .h4-style {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .h5-style {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .p-style {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .p-style-small {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .button-style {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .seeMore-style {
+    font-size: 15px;
+    line-height: 22px;
+  }
+}
+
 @media (max-width: 1024px) {
     .h1-style{
         font-size: 40px;
@@ -161,15 +208,15 @@ body {
         line-height: 20px;
     }
     
-    //   .button-style {
-    //     font-size: 16px;
-    //     line-height: 20px;
-    //   }
+      .button-style {
+        font-size: 16px;
+        line-height: 20px;
+      }
     
-    //   .seeMore-style {
-    //     font-size: 15px;
-    //     line-height: 22px;
-    //   }
+      .seeMore-style {
+        font-size: 14px;
+        line-height: 22px;
+      }
 }
 @media (max-width: 480px) {
     .h1-style {
@@ -208,12 +255,12 @@ body {
     }
   
     .button-style {
-      font-size: 15px;
+      font-size: 14px;
       line-height: 20px;
     }
   
     .seeMore-style {
-      font-size: 14px;
+      font-size: 12px;
       line-height: 20px;
     }
   }
