@@ -10,7 +10,6 @@
         width: fit-content;
         max-width: 150px;
         padding: 6px; //150 38
-        gap: 4px;
         transition: border-radius 0.5s ease-in-out;
 
         &:hover{
@@ -24,6 +23,8 @@
             color: var(--color-black);
             padding: 0;
             cursor: pointer;
+            display: flex;
+            gap: 3px;
         }
     }
 }

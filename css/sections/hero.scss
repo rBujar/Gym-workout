@@ -193,6 +193,14 @@
     }
 }
 
+@media (max-width: 1440px){
+    .hero{
+        &__partners{
+            margin-top: 112px
+        }
+    }
+}
+
 @media (max-width: 1024px) {
     .hero {
         &__content {
