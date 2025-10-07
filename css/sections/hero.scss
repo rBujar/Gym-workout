@@ -4,7 +4,7 @@
     padding: 20px;
     position: relative; //1
     max-width: 1255px !important; //1
-    
+
     // transform: scale(1.1);
 
     &__left {
@@ -13,7 +13,6 @@
         align-items: start;
         gap: 20px;
         flex: 1;
-        
     }
 
     &__content {
@@ -47,7 +46,7 @@
     }
 
     &__partners {
-        margin-top: 90px;
+        margin-top: 80px;
 
         p {
             text-transform: uppercase;
@@ -75,13 +74,12 @@
 
     &__image {
         position: absolute;
-        
+
         img {
-        // width: 380px;
-        // height: auto;
-        object-fit: contain;
-        margin-top: 15px;
-       
+            // width: 380px;
+            // height: auto;
+            object-fit: contain;
+            margin-top: 15px;
         }
     }
 
@@ -91,13 +89,13 @@
         outline: none;
         border-radius: 12px;
         max-width: 180px;
-        padding: 15px 38px;  //180 110
+        padding: 15px 38px; //180 110
         position: absolute;
         top: -6px;
         right: -88px;
-        
+
         // margin: 2px 10px 0px 0px;
-        
+
         h2 {
             color: var(--color-text-primary);
             font-size: 48px;
@@ -113,8 +111,9 @@
                 opacity: 0.8;
             }
         }
-        img{
-            background-color: #EFA082;
+
+        img {
+            background-color: #efa082;
             padding: 3px;
             border: none;
             outline: none;
@@ -123,7 +122,7 @@
         }
     }
 
-    &__tutorial{
+    &__tutorial {
         background-color: var(--color-charcoal);
         border: none;
         outline: none;
@@ -139,20 +138,22 @@
         max-width: 206px;
         padding: 28px 33px; //206 96
 
-        img{
+        img {
             object-fit: contain;
             // width: 30px;
             // height: 30px;
         }
-        &-stats{
+
+        &-stats {
             color: var(--color-text-primary);
-            width:fit-content;
-            
-            h3{
+            width: fit-content;
+
+            h3 {
                 margin: 0;
                 width: fit-content;
             }
-            p{
+
+            p {
                 margin: 0;
                 font-size: 14px;
                 line-height: 18px;
@@ -160,7 +161,7 @@
         }
     }
 
-    &__video{
+    &__video {
         position: absolute;
         background-color: var(--color-primary);
         border: none;
@@ -168,21 +169,20 @@
         border-radius: 12px;
         max-width: 195px;
         padding: 20px 23px; //193 98
-        
+
         right: -150px;
         top: 480px;
 
-        h3{
+        h3 {
             margin: 0;
             font-size: 40px;
             line-height: 40px;
             font-weight: 600;
             letter-spacing: 1px;
             color: var(--color-text-primary);
-
         }
 
-        p{
+        p {
             margin: 0;
             font-size: 13px;
             line-height: 20px;

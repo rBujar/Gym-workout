@@ -1,0 +1,22 @@
+.program{
+    display: flex;
+    flex-direction: column;
+    max-width: 1312px !important;
+
+    &__title{
+        display: flex;
+        flex-direction: column;
+
+        h2{
+            margin-bottom: 10px;
+            width: fit-content;
+        }
+        p{
+            width: fit-content;
+        }
+    }
+
+    &__bottom{
+        display: flex;
+    }
+}
