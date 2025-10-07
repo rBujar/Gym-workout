@@ -1,6 +1,12 @@
+@import url(/css/reset.css);
+@import url(/css/layout.css);
+
 @import url(/css/sections/header.scss);
 @import url(/css/sections/hero.scss);
 @import url(/css/sections/program.scss);
+@import url(/css/sections/preview.scss);
+@import url(/css/sections/membership.scss);
+@import url(/css/sections/navigation.scss);
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
@@ -17,13 +23,18 @@
   --color-charcoal: #303030; /* Primary text color/ shape 2 */
   --color-slate-gray: #323443; /* Muted / shape secondary 1 */
   --color-storm-gray: #4f5261; /* Secondary text color/ Shape Secondary 3 */
-  --color-blue: #0070C9: /*link */
+  --color-blue: #0070c9;
+  --color-blue-light: #008cfc;
 }
+::-webkit-scrollbar {
+    display: none;
+  }
 
 body {
     font-family: "Inter", sans-serif;
     margin: 0;
     background-color: var(--color-black);
+   
 }
 
 .container {
@@ -31,6 +42,7 @@ body {
     max-width: 1440px;
     margin: auto;
 }
+
 .bg-overlay{
     background-color: var(--color-slate-gray);
 }
@@ -74,6 +86,7 @@ body {
     color: var(--color-text-secondary);
     font-size: 16px;
     line-height: 24px;
+    letter-spacing: 0.5px;
     font-weight: 400;
     width: fit-content;
     opacity: 0.8;
@@ -90,8 +103,118 @@ body {
 .button-style{
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
+    letter-spacing: 0;
     line-height: 22px;
     font-weight: 600;
     color: var(--color-text-primary);
 }
+.seeMore-style{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    color: var(--color-blue);
 
+    text-decoration: none;
+    cursor: pointer;
+
+    transition: color 0.3s ease-in-out;
+
+    &:hover{
+        color: var(--color-blue-light);
+    }
+}
+
+@media (max-width: 1024px) {
+    .h1-style{
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .h2-style {
+        font-size: 30px;
+        line-height: 40px;
+      }
+    
+      .h3-style {
+        font-size: 20px;
+        line-height: 28px;
+      }
+    
+      .h4-style {
+        font-size: 18px;
+        line-height: 24px;
+      }
+    
+      .h5-style {
+        font-size: 15px;
+        line-height: 22px;
+      }
+    
+      .p-style {
+        font-size: 14px;
+        line-height: 22px;
+      }
+    
+      .p-style-small {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    
+    //   .button-style {
+    //     font-size: 16px;
+    //     line-height: 20px;
+    //   }
+    
+    //   .seeMore-style {
+    //     font-size: 15px;
+    //     line-height: 22px;
+    //   }
+}
+@media (max-width: 480px) {
+    .h1-style {
+      font-size: 28px;
+      line-height: 38px;
+    }
+  
+    .h2-style {
+      font-size: 24px;
+      line-height: 32px;
+    }
+  
+    .h3-style {
+      font-size: 20px;
+      line-height: 26px;
+    }
+  
+    .h4-style {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  
+    .h5-style {
+      font-size: 15px;
+      line-height: 22px;
+    }
+  
+    .p-style {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  
+    .p-style-small {
+      font-size: 13px;
+      line-height: 18px;
+    }
+  
+    .button-style {
+      font-size: 15px;
+      line-height: 20px;
+    }
+  
+    .seeMore-style {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+  

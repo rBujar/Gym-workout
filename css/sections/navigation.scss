@@ -1,0 +1,42 @@
+.navigation{
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+
+    &__item{
+        display: flex;
+        align-items: center;
+        background-color: var(--color-text-primary);
+        width: fit-content;
+        max-width: 150px;
+        padding: 6px; //150 38
+        transition: border-radius 0.5s ease-in-out;
+
+        &:hover{
+            border-radius: 20px;
+        }
+
+        button{
+            border: none;
+            outline: none;
+            background: transparent;
+            color: var(--color-black);
+            padding: 0;
+            cursor: pointer;
+            display: flex;
+            gap: 3px;
+        }
+    }
+}
+
+@media (max-width: 1440px) {
+    .navigation{
+        padding: 30px 65px 26px 0px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .navigation{
+        padding: 20px 45px 10px 0px;
+    }
+}

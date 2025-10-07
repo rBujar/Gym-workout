@@ -11,5 +11,8 @@
   "devDependencies": {
     "sass": "^1.92.1",
     "vite": "^7.1.2"
+  },
+  "dependencies": {
+    "aos": "^2.3.4"
   }
 }
