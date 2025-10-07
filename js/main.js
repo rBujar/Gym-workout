@@ -38,6 +38,19 @@ hamburger.addEventListener('click', () =>{
 
 ///AOS
 AOS.init({
-    duration: 1000,
-    offset: 100,
+    duration: 700,
+    offset: 50,
+    // duration: 0,
+    // offset: 0,
+})
+
+//lazy loading
+document.addEventListener('DOMContentLoaded', () =>{
+    const image = document.querySelectorAll('img')
+
+    image.forEach(img => {
+        if(!img.id.includes("hero-image")){
+            img.setAttribute("loading", "lazy")
+        }
+    });
 })
