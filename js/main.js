@@ -52,6 +52,7 @@ hamburger.addEventListener('click', () =>{
 
 const menuItem = document.querySelectorAll('.menu__link');
 
+
 menuItem.forEach(item => {
     item.addEventListener('click', () =>{
         hamburger.classList.toggle('active')
@@ -83,3 +84,13 @@ document.addEventListener('DOMContentLoaded', () =>{
     });
 })
 
+//smooth anchor point
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
