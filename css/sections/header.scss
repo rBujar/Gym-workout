@@ -24,6 +24,7 @@
     &__menu {
         display: flex;
         gap: 20px;
+        overflow: hidden;
 
         &-item {
             list-style: none;
@@ -72,6 +73,7 @@
         }
     }
 }
+
 @media (max-width: 1250px) {
     .header {
         &__nav {
@@ -90,9 +92,10 @@
 
 @media screen and (max-width: 480px) {
     .header {
-        &__nav{
-            padding: 5px;
+        &__nav {
+            padding: 10px;
         }
+
         &__hamburger {
             display: block;
 
@@ -100,16 +103,17 @@
                 &--top {
                     transform: translateY(8px) rotate(45deg);
                 }
-    
+
                 &--middle {
                     opacity: 0;
                 }
-    
+
                 &--bottom {
                     transform: translateY(-8px) rotate(-45deg);
                 }
             }
         }
+
         &__menu {
             position: fixed;
             right: -120%;
@@ -121,6 +125,7 @@
             height: 100%;
             text-align: center;
             transition: right 0.4s ease-in-out, opacity 0.3s ease;
+            
 
             justify-content: start;
             padding-top: 30px;
@@ -132,6 +137,7 @@
                 font-size: 20px;
                 line-height: 14px;
             }
+
             li {
                 margin: 20px 0;
             }
@@ -140,7 +146,12 @@
                 right: 0;
                 z-index: 2;
                 padding-right: 40px;
+                scroll-behavior: none;
+                
             }
         }
     }
 }
+body.no-scroll {
+    overflow: hidden;
+  }

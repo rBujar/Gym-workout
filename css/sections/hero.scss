@@ -193,9 +193,9 @@
     }
 }
 
-@media (max-width: 1440px){
-    .hero{
-        &__partners{
+@media (max-width: 1440px) {
+    .hero {
+        &__partners {
             margin-top: 80px;
         }
     }
@@ -383,13 +383,102 @@
     }
 }
 
+@media(max-width: 900px) {
+    .hero {
+        &__content {
+            h1 {
+                font-size: 115px;
+                line-height: 150px;
+                margin-bottom: 0px;
+            }
+
+            // p {
+            //     font-size: 13px;
+            // }
+        }
+
+        &__right {
+            top: 60px;
+            right: 75px;
+        }
+
+        &__image {
+            width: 320px;
+        }
+
+        &__tracer {
+            max-width: 145px;
+            padding: 10px 25px; //180 110
+            position: absolute;
+            top: 10px;
+            right: -58px;
+
+            // margin: 2px 10px 0px 0px;
+
+            h2 {
+                font-size: 30px;
+                line-height: 30px;
+                letter-spacing: -3px;
+                
+                span {
+                    font-size: 12px;
+                    line-height: 16px;
+                }
+            }
+        }
+
+        &__tutorial {
+            gap: 10px;
+            left: -100px;
+            top: 310px;
+
+            max-width: 185px;
+            padding: 10px 15px; //206 96
+
+            img {
+                object-fit: contain;
+                width: 25px;
+                height: 25px;
+            }
+
+            &-stats {
+                h3 {
+                    font-size: 18px;
+                }
+
+                p {
+                    font-size: 12px;
+                    line-height: 16px;
+                }
+            }
+        }
+
+        &__video {
+            max-width: 195px;
+            padding: 10px 13px; //193 98
+
+            right: -90px;
+            top: 393px;
+
+            h3 {
+                font-size: 24px;
+                line-height: 26px;
+            }
+
+            p {
+                font-size: 8px;
+                line-height: 12px;
+            }
+        }
+    }
+}
+
 @media (max-width: 480px) {
     .hero {
         padding: 10px;
 
         &__partners {
-            margin-top: 300px;
-            
+            margin-top: 320px;
 
             p {
                 text-transform: uppercase;
@@ -400,8 +489,6 @@
 
         &__logos {
             gap: 10px;
-
-            
 
             &--1 {
                 width: 25px;
@@ -439,14 +526,13 @@
                 font-size: 75px;
                 line-height: 80px;
                 margin-bottom: 0px;
-                padding: 5px;
-                
+                padding: 0px;
             }
 
             p {
                 margin-top: 0px;
                 font-size: 12px;
-                padding: 5px;
+                padding-left: 5px;
             }
 
             button {
@@ -457,7 +543,7 @@
         }
 
         &__right {
-            top: 260px;
+            top: 290px;
             right: 150px;
         }
 
@@ -506,7 +592,7 @@
 
             max-width: 200px;
             padding: 15px 20px;
-             //206 96
+            //206 96
 
             img {
                 width: 20px;

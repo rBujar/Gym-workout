@@ -16,23 +16,23 @@
         </div>
         <ul class="header__menu">
           <li class="header__menu-item">
-            <a href="#">workouts</a>
+            <a class="menu__link" href="#hero">workouts</a>
           </li>
           <li class="header__menu-item">
-            <a href="#">programs</a>
+            <a class="menu__link" href="#program">programs</a>
           </li>
           <li class="header__menu-item">
-            <a href="#">healthy</a>
+            <a class="menu__link" href="#preview">Our Work</a>
           </li>
           <li class="header__menu-item">
-            <a href="#">community</a>
+            <a class="menu__link" href="#membership">Membership</a>
           </li>
-          <li class="header__menu-item">
+          <!-- <li class="header__menu-item">
             <a href="#">about</a>
           </li>
           <li class="header__menu-item">
             <a href="#">store</a>
-          </li>
+          </li> -->
         </ul>
         
         <div class="header__hamburger">
@@ -42,7 +42,7 @@
         </div>
     </header>
     <main>
-    <section class="hero container">
+    <section id="hero" class="hero container">
       <div class="hero__left">
         <div class="hero__content">
           <h1  data-aos="fade-right">Workout with me</h1>
@@ -88,7 +88,7 @@
         </div>
       </div>
     </section>
-    <section class="program">
+    <section id="program" class="program">
       <div class="program__title" data-aos="fade-right" data-aos-easing="ease-in-cubic">
         <h2 class="h2-style">Not sure where to start?</h2>
         <p class="p-style">
@@ -143,9 +143,9 @@
         </div>
       </div>
     </section>
-    <section class="preview container">
+    <section id="preview" class="preview container">
       <div id="topPreview_item" class="preview__item">
-        <div class="preview__content" data-aos="fade-left" data-aos-delay="100" data-aos-easing="ease-in-cubic">
+        <div class="preview__content" data-aos="fade-right" data-aos-delay="100" data-aos-easing="ease-in-cubic">
           <div class="preview__title">
           <h1 class="h1-style">Work out at home for free.</h1>
           <p class="p-style-small">
@@ -161,7 +161,7 @@
           <img src="assets/white-arrow_right.png" alt="white right arrow">
         </div>
         </div>
-        <div class="preview__image" data-aos="zoom-in-down" data-aos-easing="ease-in-cubic">
+        <div class="preview__image" data-aos="fade-right" data-aos-easing="ease-in-cubic">
           <img src="assets/model-1.png" alt="model 1">
         </div>
       </div>
@@ -182,17 +182,17 @@
           <img src="assets/white-arrow_right.png" alt="white right arrow">
         </div>
         </div>
-        <div class="preview__image" data-aos="zoom-in-up" data-aos-easing="ease-in-cubic">
+        <div class="preview__image" data-aos="fade-right" data-aos-easing="ease-in-cubic">
           <img src="assets/model-2.png" alt="model 2">
         </div>
       </div>
     </section>
-    <section class="membership container">
-      <div class="membership__title" data-aos="zoom-in" data-aos-easing="ease-in-cubic">
+    <section id="membership" class="membership container">
+      <div class="membership__title" data-aos="fade-right" data-aos-easing="ease-in-cubic">
         <h1 class="h1-style">Membership</h1>
       </div>
       <div class="membership__cards">
-      <div class="membership__item" data-aos="fade-down" data-aos-delay="100" data-aos-easing="ease-in-cubic">
+      <div class="membership__item" data-aos="fade-right" data-aos-delay="100" data-aos-easing="ease-in-cubic">
         <div class="membership__content">
           <h2 class="h2-style">Join for Free</h2>
           <p class="p-style">Reach your fitness goals or maintain your healthy lifestyle with professional training and support from a positive and active online community.</p>
@@ -211,7 +211,7 @@
           <img src="assets/white-arrow_right.png" alt="white right arrow">
         </div>
       </div>
-      <div class="membership__item" data-aos="fade-down" data-aos-delay="150" data-aos-easing="ease-in-cubic">
+      <div class="membership__item" data-aos="fade-right" data-aos-delay="150" data-aos-easing="ease-in-cubic">
         <div class="membership__content">
           <h2 class="h2-style">WO Plus</h2>
           <p class="p-style">WO Plus includes everything you get with a free membership and adds brand new convenience features, fitness tools, and unique content.</p>
@@ -234,11 +234,9 @@
     </section>
     </main>
     <div class="navigation container" >
-      <div class="navigation__item">
         <button id="navButton" class="button-style">
         <img src="assets/black-arrow-up.png" alt="black arrow up"></button>
       </div>
-    </div>
     <script type="module" src="js/main.js"></script>
   </body>
 </html>

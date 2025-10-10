@@ -114,6 +114,38 @@
         }
     }
 }
+@media (max-width: 900px) {
+    .preview {
+        padding: 20px; 
+        &__item:first-child {
+            .preview__image{
+                img{
+                    width: 400px;
+                }
+            }
+        }
+        &__item:last-child {
+            gap: 60px;
+            .preview__image{
+                img{
+                    width: 390px;
+                }
+            }
+        }
+        &__title {
+            p {
+                padding-right: 20px;
+            }
+        }
+
+        &__link{
+            img{
+                width: 22px;
+                height: auto;
+            }
+        }
+    }
+}
 
 @media (max-width: 480px) {
     .preview {
