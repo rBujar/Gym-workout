@@ -14,7 +14,7 @@
     }
 
     &__content {
-        flex: 1;
+        width: 50%;
         display: flex;
         flex-direction: column;
         align-items: start;
@@ -40,13 +40,10 @@
     }
 
     &__image {
-        min-width: 640px;
+        width: 50%;
         height: auto;
     }
 
-    // &__image:last-child{
-    //     min-width: 640px;
-    // }
 }
 
 @media (max-width: 1440px) {
@@ -82,7 +79,7 @@
             }
         }
         &__image{
-            min-width: unset;
+            // min-width: unset;
         }
     }
 }
@@ -164,6 +161,9 @@
             flex-direction: column;
             gap: 0px;
         }
+        &__content{
+            width: unset;
+        }
 
         &__title {
             gap: 20px;
@@ -186,6 +186,7 @@
         }
 
         &__image {
+            width: 100%;
             img {
                 width: 100%;
                 height: auto;

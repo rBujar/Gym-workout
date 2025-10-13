@@ -11,7 +11,6 @@ function getLeftSide() {
     
     if (!window.matchMedia('screen and (max-width: 480px)').matches) {
     program.style.marginLeft = `${leftContainerSide}px`
-    topPreviewItem.style.marginLeft = `${leftContainerSide}px`
     }
 }
 // function getRightSide() {
