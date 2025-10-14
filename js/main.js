@@ -28,7 +28,7 @@ const scrollButton = document.getElementById('navButton')
 window.onscroll = function() {scrollFunction()}
 
 function scrollFunction(){
-    if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
+    if(document.body.scrollTop > 500 || document.documentElement.scrollTop > 500){
         scrollButton.style.display = 'flex';
     }else{
         scrollButton.style.display = 'none';
