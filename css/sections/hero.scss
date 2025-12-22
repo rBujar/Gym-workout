@@ -1,17 +1,13 @@
+@import "../mixins.scss";
+
 .hero {
     display: flex;
     justify-content: center;
     padding: 20px;
-    position: relative; //1
-    max-width: 1255px !important; //1
-
-    // transform: scale(1.1);
+    position: relative;
+    max-width: 1255px !important;
 
     &__left {
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-        gap: 20px;
         flex: 1;
     }
 
@@ -46,7 +42,7 @@
     }
 
     &__partners {
-        margin-top: 115px;
+        margin-top: 135px;
 
         p {
             text-transform: uppercase;
@@ -61,10 +57,7 @@
 
     &__right {
         flex: 1;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        // justify-content: center;
+        @include position($justify: start);
         position: relative;
         top: 80px;
         // left: -220px;
@@ -127,9 +120,7 @@
         background-color: var(--color-charcoal);
         border: none;
         outline: none;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        @include position($direction: row);
         gap: 12px;
         border-radius: 12px;
         position: absolute;
@@ -196,7 +187,7 @@
 @media (max-width: 1440px) {
     .hero {
         &__partners {
-            margin-top: 80px;
+            margin-top: 100px;
         }
     }
 }
@@ -220,11 +211,9 @@
 
         &__tracer {
             max-width: 180px;
-            padding: 15px 35px; //180 110
+            padding: 15px 35px;
             top: -7px;
             right: -50px;
-
-            // margin: 2px 10px 0px 0px;
 
             h2 {
                 font-size: 40px;
@@ -242,7 +231,7 @@
             top: 355px;
 
             max-width: 206px;
-            padding: 25px 30px; //206 96
+            padding: 25px 30px;
 
             &-stats {
                 p {
@@ -254,7 +243,7 @@
         &__video {
             border-radius: 12px;
             max-width: 195px;
-            padding: 18px 20px; //193 98
+            padding: 18px 20px;
 
             right: -122px;
             top: 445px;
@@ -280,10 +269,6 @@
                 margin-bottom: 20px;
                 margin-top: 20px;
             }
-
-            // p {
-            //     font-size: 13px;
-            // }
         }
 
         &__right {
@@ -303,12 +288,10 @@
 
         &__tracer {
             max-width: 145px;
-            padding: 15px 35px; //180 110
+            padding: 15px 35px;
             position: absolute;
             top: 0px;
             right: -60px;
-
-            // margin: 2px 10px 0px 0px;
 
             h2 {
                 color: var(--color-text-primary);
@@ -337,7 +320,7 @@
             top: 325px;
 
             max-width: 185px;
-            padding: 15px 20px; //206 96
+            padding: 15px 20px;
 
             img {
                 object-fit: contain;
@@ -364,7 +347,7 @@
 
         &__video {
             max-width: 195px;
-            padding: 16px 18px; //193 98
+            padding: 16px 18px;
 
             right: -105px;
             top: 415px;
@@ -383,7 +366,7 @@
     }
 }
 
-@media(max-width: 900px) {
+@media (max-width: 900px) {
     .hero {
         &__content {
             h1 {
@@ -391,10 +374,6 @@
                 line-height: 150px;
                 margin-bottom: 0px;
             }
-
-            // p {
-            //     font-size: 13px;
-            // }
         }
 
         &__right {
@@ -408,18 +387,16 @@
 
         &__tracer {
             max-width: 145px;
-            padding: 10px 25px; //180 110
+            padding: 10px 25px;
             position: absolute;
             top: 10px;
             right: -58px;
-
-            // margin: 2px 10px 0px 0px;
 
             h2 {
                 font-size: 30px;
                 line-height: 30px;
                 letter-spacing: -3px;
-                
+
                 span {
                     font-size: 12px;
                     line-height: 16px;
@@ -433,7 +410,7 @@
             top: 310px;
 
             max-width: 185px;
-            padding: 10px 15px; //206 96
+            padding: 10px 15px;
 
             img {
                 object-fit: contain;
@@ -455,7 +432,7 @@
 
         &__video {
             max-width: 195px;
-            padding: 10px 13px; //193 98
+            padding: 10px 13px;
 
             right: -90px;
             top: 393px;
@@ -558,11 +535,9 @@
 
         &__tracer {
             max-width: 200px;
-            padding: 10px 20px; //180 110
+            padding: 10px 20px;
             top: 5px;
             right: -130px;
-
-            // margin: 2px 10px 0px 0px;
 
             h2 {
                 display: flex;
@@ -592,7 +567,6 @@
 
             max-width: 200px;
             padding: 15px 20px;
-            //206 96
 
             img {
                 width: 20px;
@@ -614,7 +588,7 @@
 
         &__video {
             max-width: 150px;
-            padding: 13px 8px; //193 98
+            padding: 13px 8px;
 
             right: -155px;
             top: 265px;

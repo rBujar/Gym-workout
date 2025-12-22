@@ -38,9 +38,6 @@
         }
 
         a {
-            display: flex;
-            align-items: center;
-            justify-content: center;
             text-decoration: none;
             background-color: var(--color-storm-gray);
             border: none;
@@ -68,18 +65,18 @@
             margin-bottom: 10px;
         }
 
-        &__gym{
+        &__gym {
             padding: 0;
             padding-bottom: 10px;
         }
 
-        &__socials{
+        &__socials {
             img {
                 width: 20px;
                 height: 20px;
             }
 
-            a{
+            a {
                 width: 35px;
                 height: 35px;
             }

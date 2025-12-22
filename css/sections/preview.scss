@@ -15,19 +15,13 @@
 
     &__content {
         width: 50%;
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-        justify-content: center;
     }
 
     &__title {
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
         margin-bottom: 24px;
 
         p {
+            margin-top: 40px;
             padding-right: 120px;
             width: fit-content;
         }
@@ -43,7 +37,6 @@
         width: 50%;
         height: auto;
     }
-
 }
 
 @media (max-width: 1440px) {
@@ -58,27 +51,32 @@
         }
     }
 }
-@media (max-width: 1200px){
-    .preview{
+
+@media (max-width: 1200px) {
+    .preview {
         &__item:first-child {
             padding-right: 0px;
-            .preview__image{
-                img{
+
+            .preview__image {
+                img {
                     width: 580px;
                     height: auto;
                 }
             }
         }
+
         &__item:last-child {
             padding-left: 0px;
             gap: 100px;
         }
+
         &__title {
             p {
                 padding-right: 80px;
             }
         }
-        &__image{
+
+        &__image {
             // min-width: unset;
         }
     }
@@ -86,24 +84,28 @@
 
 @media (max-width: 1024px) {
     .preview {
-        padding: 10px; 
+        padding: 10px;
+
         &__item:first-child {
-            .preview__image{
-                img{
+            .preview__image {
+                img {
                     width: 520px;
                     height: auto;
                 }
             }
         }
+
         &__item:last-child {
             gap: 60px;
-            .preview__image{
-                img{
+
+            .preview__image {
+                img {
                     width: 420px;
                     height: auto;
                 }
             }
         }
+
         &__title {
             p {
                 padding-right: 50px;
@@ -111,32 +113,37 @@
         }
     }
 }
+
 @media (max-width: 900px) {
     .preview {
-        padding: 20px; 
+        padding: 20px;
+
         &__item:first-child {
-            .preview__image{
-                img{
+            .preview__image {
+                img {
                     width: 400px;
                 }
             }
         }
+
         &__item:last-child {
             gap: 60px;
-            .preview__image{
-                img{
+
+            .preview__image {
+                img {
                     width: 390px;
                 }
             }
         }
+
         &__title {
             p {
                 padding-right: 20px;
             }
         }
 
-        &__link{
-            img{
+        &__link {
+            img {
                 width: 22px;
                 height: auto;
             }
@@ -161,7 +168,8 @@
             flex-direction: column;
             gap: 0px;
         }
-        &__content{
+
+        &__content {
             width: unset;
         }
 
@@ -187,6 +195,7 @@
 
         &__image {
             width: 100%;
+
             img {
                 width: 100%;
                 height: auto;
